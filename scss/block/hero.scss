@@ -1,0 +1,45 @@
+
+
+
+
+
+
+.table {
+  width: 100%;
+  background: linear-gradient(30deg, dodgerblue, violet);
+  padding: 70.5px 0;
+  .table__wrapper {
+    border-radius: 10px;
+    .table__content {
+      width: 100%;
+      border-radius: 10px;
+      border-collapse: collapse;
+      padding: 0 20px;
+
+tr{
+  &:nth-child(even){
+    background: #f5f5f5;
+  }
+}
+      th,
+      td {
+        transition: .5s;
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        &:hover{
+          cursor: pointer;
+          color: aqua;
+        }
+      }
+      th {
+        background: #36304a;
+        color: #fff;
+      }
+      td {
+        background: #fff;
+        color: #707070;
+      }
+    }
+  }
+}
