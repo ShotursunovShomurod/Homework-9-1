@@ -9,6 +9,7 @@
   background: linear-gradient(30deg, dodgerblue, violet);
   padding: 70.5px 0;
   .table__wrapper {
+    width: 100%;
     border-radius: 10px;
     .table__content {
       width: 100%;
@@ -42,4 +43,17 @@ tr{
       }
     }
   }
+}
+
+
+@media(max-width:900px){
+.table{
+  .table__wrapper{
+    overflow: auto;
+    .table__content{
+      width: 900px;
+    }
+  }
+
+}
 }
